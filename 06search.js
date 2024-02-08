@@ -35,4 +35,5 @@ function binarySearch(a,t) {
   return -1;
 }
 console.log( binarySearch([-5,2,10,4,6],4) );
-// O(logn) , as size gets half every loop. 
+// O(logn) , as size gets half every loop, but its incorrect as sort built in function(line 21) is of O(nlogn) complexity 
+// therefore the binarySearch() has O(nlogn) time complexity.
